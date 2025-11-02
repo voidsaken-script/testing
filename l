@@ -1,10 +1,3 @@
-local old; old = hookfunction(string.match, newcclosure(function(a, b)
-    if b == ":(%d+):" then
-        print("anti-beautify attempted")
-        return ":1:"
-    end
-    return old(a, b)
-end));
 ([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _eaqOcSlxAlIi = a; end)); return (function(h, ...)
     local t; local k; local l; local a; local n; local f; local e = 24915; local d = 0; local u = {}; while d < 720 do
         d = d + 1; while d < 0x385 and e % 0x2098 < 0x104c do
