@@ -2243,6 +2243,7 @@
                                                         end
                                                     end
                                                 else
+                                                    print(u[e[n]], e[f])
                                                     if (u[e[n]] == e[f]) then
                                                         d =
                                                             d + 1;
